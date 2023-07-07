@@ -4,6 +4,7 @@ pipeline {
         stage("sonar quality check") {
             steps {
                 echo "Run pipeline sonar quality check"
+                echo "OK"
             }
         }
         stage("docker build and docker push") {
